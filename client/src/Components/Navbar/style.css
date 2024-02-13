@@ -1,0 +1,360 @@
+.footer {
+  background-color: #E5EEFF;
+}
+.footer-nav{
+    /* margin: 0px 26px; */
+    text-align: center;
+    /* padding-bottom: 20px; */
+    margin-top: 20px;
+}
+.footer-nav a{
+    display: inline-block !important;
+}
+.social-media-icons{
+    text-align: end;
+    padding: 26px 0px 0px 0px;
+    font-size: 25px;
+}
+.footer-logo{
+    display: flex;
+}
+.footer-img{
+    max-height: 80px;
+    padding-top: 25px;
+    padding-bottom: 17px;
+}
+.footer-header{
+    border-bottom: 1px solid #BEC7D8;
+}
+.footer-body-header{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: #000;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer-body-subheading{
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+.footer-body-subheading1{
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: initial;
+    position: relative;
+    padding-left: 53px;
+}
+
+.footer-logo-heading{
+    padding: 31px 0px 0px 0px;
+}
+.footer-body{
+    padding-top: 20px;
+}
+.footer-privacy{
+    text-align: center;
+}
+.booknow{
+    border-radius: 30px !important;
+    padding: 10px 30px 10px 30px !important;
+    font-weight: 600 !important;
+    margin-left: 12px !important;
+}
+.footer-email{
+    padding-top: 10px;
+}
+.footer-phone{
+    padding-top: 10px;
+}
+.button-icon{
+    position: absolute;
+    transform: rotate(115deg);
+    top: 0%;
+    right: 38%;
+}
+.button-icon img{
+    width: 50px;
+}
+.footer-body-links{
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+}
+.footer-body-text{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 600;
+}
+.footer-navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.footer-navbar{
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: rgba(0, 0, 0, 0.55);
+    --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+    --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+    --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 0, 0, 0.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
+    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1); 
+     --bs-navbar-toggler-border-radius: 0.375rem; 
+     --bs-navbar-toggler-focus-width: 0.25rem; 
+     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out; 
+     position: relative; 
+     flex-wrap: wrap; 
+     align-items: center; 
+     justify-content: space-between; 
+     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+     margin-left: 73px;
+
+}
+.footer-navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #000;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-weight: 600;
+    text-decoration: none;
+}
+.dropdown-basic .btn-primary{
+    background-color: #fff !important;
+}
+.dropdown-menu[data-bs-popper]{
+    top: 100%;
+    /* right: 0; */
+    left: -120px !important;
+}
+.dropdown-item{
+    padding: 0px !important;
+    justify-content: center !important;
+}
+.dropdown-toggle{
+    margin-top: 3px !important;
+}
+.footer-dog {
+    width: 100%;
+}
+@media screen and (max-width: 1023px){
+.footer-navbar{
+    display: block;
+    margin-left: 0px;
+}
+.footer-navbar a{
+    display: block;
+
+}
+.footer-navbar ul{
+    display: block
+}
+
+}
+@media screen  and (max-width:1024px){
+    .footer-email{
+        font-size: 13px;
+        padding-top: 7px;
+    }
+    .footer-phone{
+        font-size: 13px;
+        padding-top: 8px;
+    }
+    .booknow {
+        border-radius: 30px !important;
+        padding: 5px 15px 5px 15px !important;
+        font-size: 12px !important;
+    }
+   
+    .button-icon img{
+        width: 40px;
+    }
+}
+@media screen  and (max-width:768px){
+    .button-icon {
+        position: absolute;
+        transform: rotate(119deg);
+        top: 6%;
+        right: 25%
+    }
+    
+.footer-body-header {
+font-size: 23px;
+}
+}
+
+@media screen  and (max-width:425px){
+    .button-icon {
+        position: absolute;
+        transform: rotate(119deg);
+        top: 16%;
+        right: 119px
+    }
+    .footer-dog {
+        margin-left: 24%;
+    }
+}
+@media screen  and (max-width:375px){
+    .button-icon {
+        position: absolute;
+        transform: rotate(119deg);
+        top: 16%;
+        right: 95px
+    }
+    
+}
+@media screen  and (max-width:320px){
+    .navbar a,
+.navbar a:focus {
+  padding: 10px 0 10px 0px !important;
+}
+    .button-icon {
+        position: absolute;
+        transform: rotate(119deg);
+        top: 16%;
+        right: 66px
+    }
+    .footer-dog {
+        margin-left: 18%;
+    }
+  
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .social-media-icons {
+        text-align: start;
+    }
+    
+}
+.booknow a{
+    color: #333;    
+}
+.btn a:hover{
+    color: #333 !important  ;    
+}
+
+/* free bucks trackor */
+.money-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 32px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .money-details-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .balance-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ecfccb;
+    width: 30%;
+    border: 1px solid #84cc16;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+  }
+  
+  .details-img {
+    width: 64px;
+    height: 64px;
+    margin: 24px;
+  }
+  
+  .details-text {
+    color: #475569;
+    font-size: 12px;
+    font-family: 'Roboto';
+    line-height: 1.7;
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .details-text {
+      font-size: 14px;
+    }
+  }
+  
+  .details-money {
+    color: #475569;
+    font-size: 18px;
+    font-family: 'Roboto';
+    line-height: 1.3;
+    margin: 0px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .details-money {
+      font-size: 24px;
+    }
+  }
+  
+  .income-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #cffafe;
+    width: 100%;
+    border: 1px solid #06b6d4;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .income-container {
+      width: 30%;
+      margin-right: 0px;
+    }
+  }
+  
+  .expenses-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ede9fe;
+    width: 100%;
+    min-width: 200px;
+    border: 1px solid #7c3aed;
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .expenses-container {
+      width: 30%;
+      margin-right: 0px;
+    }
+  }

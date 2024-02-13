@@ -1,0 +1,213 @@
+.memberCard{
+    margin-top: 50px;
+}
+.member-card{
+    /* margin-top: 50px; */
+    /* width: 45% !important; */
+    /* margin-right: 30px; */
+    /* border: 1px solid; */
+    padding: 20px 10px 20px 20px;
+}
+.card-body{
+    padding:10px 30px 30px 30px !important;
+}
+
+.card-title h5{
+    font-family: 'Fredoka One', cursive !important;
+    font-size: 25px !important;
+    padding-bottom: 15px;
+    
+}
+.member-car-title{
+    font-family: 'Fredoka One', cursive !important;
+}
+/* .member-card button{
+    background-color: #EE8A38;
+} */
+#member-section button{
+    background-color: #EE8A38;
+    /* width: 59%; */
+}
+#member-section h1{
+    text-align: center;
+    font-family: 'Fredoka One', cursive !important;
+    margin-top: 58px;
+}
+#member-section label{
+    font-weight: 600;
+}
+#member-section .social-media-title {
+    font-family: 'Fredoka One', cursive !important;
+    font-size: 25px;
+    padding-bottom: 14px;
+}
+#member-section .form-container{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding: 3rem 3rem 3rem 3rem;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 100px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+.member-card-img{
+    height: 50%;
+}
+#member-section p{
+    font-size: 15px;
+}
+.submit-button1 {
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 90%;
+    padding: 7px;
+    color: black;
+    background-color: #EE8A38;
+    margin-top: 12px;
+    margin-right: 10px;
+    text-align: center;
+}
+.submit-button1:hover{
+  color: black;
+  background-color: #ED4B4B;
+}
+#member-section button:hover{
+  color: black;
+  background-color: #ED4B4B;
+}
+
+/* Component: Well */
+.well {
+    overflow: hidden;
+    border-radius: 0;
+    margin-bottom: 30px;
+  }
+ 
+  
+  .mini-profile-widget .image-container .avatar {
+      width: 100%;
+      height: 180px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      background: white;
+      padding: 4px;
+      border: 1px solid #dddddd;
+  }
+  
+  .btn-blue {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: white;
+  }
+  .btn-blue:hover,
+  .btn-blue:visited {
+    background-color: #2980b9;
+    color: white;
+  }
+  .btn-green {
+    background-color: #2ecc71;
+    border-color: #27ae60;
+    color: white;
+  }
+  .btn-green:hover,
+  .btn-green:visited {
+    background-color: #27ae60;
+    color: white;
+  }
+  .btn-orange {
+    background-color: #ff530d;
+    border-color: #e82c0c;
+    color: white;
+  }
+  .btn-orange:hover,
+  .btn-orange:visited {
+    background-color: #e82c0c;
+    color: white;
+  }
+  .btn-red {
+    background-color: #ff1d23;
+    border-color: #d40d12;
+    color: white;
+  }
+  .btn-red:hover,
+  .btn-red:visited {
+    background-color: #d40d12;
+    color: white;
+  }
+  .btn-purple {
+    background-color: #9b59b6;
+    border-color: #8e44ad;
+    color: white;
+  }
+  .btn-purple:hover,
+  .btn-purple:visited {
+    background-color: #8e44ad;
+    color: white;
+  }
+  .btn-pink {
+    background-color: #fd32c0;
+    border-color: #fe31ab;
+    color: white;
+  }
+  .btn-pink:hover,
+  .btn-pink:visited {
+    background-color: #fe31ab;
+    color: white;
+  }
+  .custom-filter{
+    width: 107%;
+    border: 1px solid #333333a6;
+    padding: 10px;
+  }
+  .radio-small{
+    padding: 0px 30px 0px 5px;
+  }
+  .radio-medium{
+    padding: 0px 30px 0px 5px;
+  }
+  .radio-large{
+    padding: 0px 0px 0px 5px;
+  }
+  @media screen and (max-width:1024px){
+  .custom-filter{
+    width: 100%;
+    border: 1px solid #333333a6;
+    padding: 10px;
+  }
+  #member-section .submit-button1 {
+    font-size: 10px;
+}
+.member-car-title {
+  font-size: 13px;
+}
+.details div{
+  font-size: 14px;
+}
+.mini-profile-widget .image-container .avatar {
+  height: 161px;
+ 
+}
+.details h5{
+  font-size: 17px;
+}
+.nav-pills .nav-link {
+  font-size: 18px;
+}
+.nav-pills .nav-link.active {
+  font-size: 18px;
+}
+
+.radio-small{
+  padding: 0px 10px 0px 5px;
+}
+.radio-medium{
+  padding: 0px 5px 0px 5px;
+}
+.radio-large{
+  padding: 0px 0px 0px 5px;
+}
+}

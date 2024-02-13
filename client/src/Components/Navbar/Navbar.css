@@ -1,0 +1,212 @@
+.happy-headding{
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    color: #000;
+}
+.happy-text{
+    padding: 25px 0px;
+    font-size: 17px;
+    /* font-weight: 600; */
+    /* padding-right: 100px; */
+    width: 80%;
+    line-height: 35px;
+}
+#happy-pets .btn-happy{
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px 0;
+    color: #fff;
+    animation-delay: 0.8s;
+    border: 3px solid #ED4B4B;
+    background: #ED4B4B;
+    text-decoration: none;
+    font-weight: 600;
+}
+#happy-pets .btn-happy:hover{
+    color: #464040;
+    background: #EE8A38;
+    border-color: #EE8A38;
+    color: #000;
+    text-decoration: none;
+}
+#howitworks .work-headding{
+    position: relative;
+    font-size: 60px;
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 40px;
+    color: #000;
+    text-align: center;
+}
+#howitworks .list-group-item{
+  border: none !important;
+  display: flex;
+  line-height: 25px;
+}
+#howitworks img{
+  padding: 0px 15px;
+  height: fit-content;
+}
+#howitworks .list-box1 {
+    margin-left: 20%;
+    width: 70%;
+    display: flex;
+}
+#howitworks .list-box2 {
+    margin-right: 20%;
+    width: 73%;
+    display: flex;
+
+}
+#howitworks .btn-howitwork{
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: auto;
+    max-width: fit-content;
+    color: #fff !important;
+    animation-delay: 0.8s;
+    border: 3px solid #ED4B4B;
+    background: #ED4B4B;
+    text-decoration: none;
+    margin-top: 40px;
+    font-weight: 600;
+}
+#howitworks .btn-howitwork a{
+    color: #fff;
+}
+#howitworks .btn-howitwork:hover{
+    color: #464040;
+    background: #EE8A38;
+    border-color: #EE8A38;
+    color: #000 !important;
+    text-decoration: none;
+}
+#howitworks .btn-howitwork a:hover{
+    color: #000 !important;
+}
+ #howitworks .work-image-box{
+   position: relative !important;
+}
+#howitworks .work-image-box img{
+    width: 105px;
+    position: absolute;
+    top: -26%;
+    left: 64%;
+    transform: rotate(121deg);
+ }
+.mobile{
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    
+    .happy-headding {
+        font-size: 65px;
+    }
+    .happy-text {
+        padding: 15px 0px;
+        width: 100%;
+    }
+    #happy-pets .btn-happy{
+        font-size: 19px;
+    }
+    #howitworks .list-box1 {
+        width: 80%;
+     }
+     #howitworks .list-box2 {
+        width: 80%;
+     }
+     #howitworks .btn-howitwork {
+        font-size: 19px;
+     }
+    
+  }
+  @media screen and (max-width: 998px) {
+    .happy-headding {
+        font-size: 45px;
+    }
+    .happy-text {
+        padding: 10px 0px;
+        line-height: 30px;
+        font-size: 16px;
+     }
+    #happy-pets .btn-happy{
+        font-size: 17px;
+    }
+    #howitworks .work-headding {
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+    #howitworks .list-box1 {
+        margin-left: 5%;
+        width: 90%;
+     }
+     #howitworks .list-box2 {
+        width: 100%;
+     }
+     #howitworks .btn-howitwork {
+        font-size: 19px;
+     }
+     .mobile{
+        display: flex;
+        flex-direction: row-reverse;
+     }
+     .mobile .active{
+        margin-right: 16px;
+        margin-left: 0px;
+     }
+     #basic-navbar-nav .active{
+        display: none;
+     }
+     #basic-navbar-nav .myprofile{
+        display: none;
+     }
+     #basic-navbar-nav .dropdown{
+        display: none;
+     }
+
+  }
+  @media screen and (max-width: 767px) {
+    
+    .happy-headding {
+        font-size: 40px;
+     }
+    #howitworks .list-box1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+    section {
+        padding: 30px 0  !important;
+    }
+    #howitworks .work-headding {
+        font-size: 36px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    section {
+        padding: 60px 0  !important;
+    }
+    #howitworks .work-image-box img {
+    display: none;
+    }
+    #happy-pets{
+        margin-top: 60px;
+    }
+    .happy-headding{
+        margin-top: 40px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #happy-pets{
+        margin-top: 30px;
+    }
+  }
+  

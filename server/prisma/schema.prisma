@@ -1,0 +1,103 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model member {
+  id                  Int                   @id @default(autoincrement())
+  firstName           String
+  lastName            String
+  streetAddress       String
+  city                String
+  state               String
+  zipCode             String
+  phoneNo             String
+  email               String                @unique
+  password            String
+  buckTractorCount    Int                   @default(0)
+  petType             String
+  noOfPetToHost       String
+  PetAcceptingTime    String
+  member_Pets         member_pets[]
+  request_booking     request_booking[]
+  non_availabile_date non_availabile_date[]
+}
+
+model member_pets {
+  id         Int    @id @default(autoincrement())
+  petType    String
+  petName    String
+  breed      String
+  size       String
+  gender     String
+  age        String
+  vacination String
+  member     member @relation(fields: [memberId], references: [id])
+  memberId   Int
+}
+
+model request_booking {
+  id               Int      @id @default(autoincrement())
+  noOfPetToHost    String
+  petType          String
+  status           String   @default("Pending")
+  r_start_Date     DateTime @updatedAt
+  r_end_Date       DateTime @updatedAt
+  buckTrackerCount Int      @default(0)
+  hostId           Int
+  member           member   @relation(fields: [memberId], references: [id])
+  memberId         Int
+}
+
+model non_availabile_date {
+  id         Int      @id @default(autoincrement())
+  start_Date DateTime @updatedAt
+  end_Date   DateTime @updatedAt
+  member     member   @relation(fields: [memberId], references: [id])
+  memberId   Int
+}
+// model event_schedule {
+//   id               Int               @id @default(autoincrement())
+//   petType          String
+//   noOfPetToHost    String
+//   scheduleType     String            @default("Host")
+//   start_Date       DateTime          @default(now())
+//   end_Date         DateTime          @default(now())
+//   PetAcceptingTime String
+//   member           member            @relation(fields: [memberId], references: [id])
+//   memberId         Int
+//   requestId        request_booking[]
+// }
+
+// model status_tracker {
+//   id             Int            @id @default(autoincrement())
+//   status         String[]
+//   start_Date     DateTime       @default(now())
+//   end_Date       DateTime       @default(now())
+//   buck_tracker   buck_tracker   @relation(fields: [trackerId], references: [id])
+//   trackerId      Int
+//   event_schedule event_schedule @relation(fields: [statusId], references: [id])
+//   statusId       Int @unique
+// }
+
+// model buck_tracker {
+//   id       Int    @id @default(autoincrement())
+//   credit   Int
+//   debit    Int
+//   balance  Int
+//   member   member @relation(fields: [memberId], references: [id])
+//   memberId Int    @unique
+// }
+// model pets {
+//   id      Int    @id @default(autoincrement())
+//   petType String
+//   // member_Pets member_pets?
+// }
+
